@@ -281,6 +281,13 @@ input[type=submit] {
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
     
+    #masthead {
+      position: static;
+    }
+    #main-container {
+      padding-top: 20px;
+    }
+    
     #logo {
     float: left;
     width: 100%;
@@ -297,7 +304,7 @@ input[type=submit] {
     .main-section {
       float: left;
       max-width: 90%;
-      margin: 20px;
+      margin: 0 20px 0 20px;
     }
     
     .sidebar {
